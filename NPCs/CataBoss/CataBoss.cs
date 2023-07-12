@@ -386,7 +386,7 @@ namespace DeathsTerminus.NPCs.CataBoss
             {
                 if (NPC.localAI[0] == 0)
                 {
-                    CombatText.NewText(NPC.getRect(), new Color(0, 76, 153), "Don't waste your time attacking.", true);
+                    CombatText.NewText(NPC.getRect(), new Color(0, 76, 153), "The real Cata isn't here at the moment", true);
                 }
                 else
                 {
@@ -401,7 +401,7 @@ namespace DeathsTerminus.NPCs.CataBoss
             {
                 if (NPC.localAI[0] == 0)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.Purple, "This shadow form can't be damaged!", true);
+                    CombatText.NewText(NPC.getRect(), Color.Purple, "So I'll test you instead!", true);
                 }
                 else
                 {
@@ -450,7 +450,7 @@ namespace DeathsTerminus.NPCs.CataBoss
             {
                 if (NPC.localAI[0] == 0)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.Purple, "This is only the beginning, you insect!", true);
+                    CombatText.NewText(NPC.getRect(), Color.Purple, "This is only the beginning!", true);
                 }
                 else
                 {
@@ -465,7 +465,7 @@ namespace DeathsTerminus.NPCs.CataBoss
             {
                 if (NPC.localAI[0] == 0)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.Orange, "You'll soon be reunited with your family!", true);
+                    CombatText.NewText(NPC.getRect(), Color.Orange, "You've seen nothing yet challenger!", true);
                 }
                 else
                 {
@@ -515,7 +515,7 @@ namespace DeathsTerminus.NPCs.CataBoss
             {
                 if (NPC.localAI[0] == 0)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.Orange, "Why do you insist on prolonging this?", true);
+                    CombatText.NewText(NPC.getRect(), Color.Orange, "What is your problem!?", true);
                 }
                 else
                 {
@@ -530,7 +530,7 @@ namespace DeathsTerminus.NPCs.CataBoss
             {
                 if (NPC.localAI[0] == 0)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.LightBlue, "You weren't meant to retaliate!", true);
+                    CombatText.NewText(NPC.getRect(), Color.LightBlue, "Trying to prove you've no Skill issues?!", true);
                 }
                 else
                 {
@@ -668,19 +668,19 @@ namespace DeathsTerminus.NPCs.CataBoss
 
                 if (NPC.ai[1] == 120)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.White, "How... how did this happen...", true);
+                    CombatText.NewText(NPC.getRect(), Color.White, "Congratulations...You've won...", true);
                 }
                 else if (NPC.ai[1] == 240)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.White, "I can't contain this form any longer...", true);
+                    CombatText.NewText(NPC.getRect(), Color.White, "Next time, Make sure he's in your town?", true);
                 }
                 else if (NPC.ai[1] == 360)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.White, "I guess it's time we fight for real.", true);
+                    CombatText.NewText(NPC.getRect(), Color.White, "You shouldn't even have that Sigil....", true);
                 }
                 else if (NPC.ai[1] == 480)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.White, "I'll be waiting.", true);
+                    CombatText.NewText(NPC.getRect(), Color.White, "Your cheating interferes with my nap time....Bye!", true);
                 }
 
                 //death animation
