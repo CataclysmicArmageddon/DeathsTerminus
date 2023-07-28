@@ -367,7 +367,7 @@ namespace DeathsTerminus.NPCs.CataBoss
                 SoundEngine.PlaySound(SoundID.DoubleJump, NPC.Center);
                 SoundEngine.PlaySound(SoundID.Item122, NPC.Center);
 
-                CombatText.NewText(NPC.getRect(), new Color(0, 76, 153), "So, here we are... it's about time you died!", true);
+                CombatText.NewText(NPC.getRect(), new Color(0, 76, 153), "Wait wha? Damn it all...NOT AGAIN!", true);
 
                 //initialize custom death sound
                 NPC.DeathSound = new("DeathsTerminus/Sounds/ShadowCataDeath") { Volume = .4f };
@@ -386,7 +386,7 @@ namespace DeathsTerminus.NPCs.CataBoss
             {
                 if (NPC.localAI[0] == 0)
                 {
-                    CombatText.NewText(NPC.getRect(), new Color(0, 76, 153), "The real Cata isn't here at the moment", true);
+                    CombatText.NewText(NPC.getRect(), new Color(0, 76, 153), "The real Cata isn't here at the moment...", true);
                 }
                 else
                 {
@@ -401,7 +401,7 @@ namespace DeathsTerminus.NPCs.CataBoss
             {
                 if (NPC.localAI[0] == 0)
                 {
-                    CombatText.NewText(NPC.getRect(), Color.Purple, "So I'll test you instead!", true);
+                    CombatText.NewText(NPC.getRect(), Color.Purple, "Guess I'll test you instead!", true);
                 }
                 else
                 {
